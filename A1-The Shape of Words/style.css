@@ -34,45 +34,6 @@ header{
 
 main{
 	article{
-		blockquote{
-			section{
-				display: flex;
-				flex-direction: row;
-				justify-content: end;
-			}
-
-			p{
-				font-size:calc(var(--quote-size)/1.2);
-				color: var(--text-color);
-				padding-inline: calc(var(--inline-space)/1.2);
-				padding-block: calc(var(--inline-space)*0.8);
-				background-color: var(--grey);
-				box-shadow: inset 0 0 0.3rem var(--text-color);
-				margin-inline:0;
-				width:fit-content;
-			}
-
-			.right{
-					margin-inline-start: auto;
-					margin-inline-end: -4.5rem;
-				}
-
-			.center{
-					margin-inline-start: auto;
-					margin-inline-end: -2rem;
-				}
-		}
-
-		section{
-			h3{
-				margin-block-end:calc(var(--block-space)*1.1);
-			}
-
-			&:nth-child(2){
-				margin-block-start:calc(var(--block-space)*4);
-			}
-		}
-
 		p{
 			font-size: var(--text-size);
 			font-family: var(--text-font);
