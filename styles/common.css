@@ -7,9 +7,9 @@
 	--bg-color:#d7dfe6;
 	--text-color:#171717;
 	--link:#276ba6;
-	--light-grey:rgb(232, 236, 240);
-	--grey:rgb(164, 167, 179);
-	--dark-grey:rgb(73, 75, 77);
+	--block-color-light:rgb(232, 236, 240);
+	--block-color-mid:rgb(164, 167, 179);
+	--block-color-dark:rgb(73, 75, 77);
 
 	/* size */
 	--h1-size:4rem;
@@ -38,7 +38,7 @@ blockquote{
 	width: fit-content;
 
 	&:nth-child(1){
-		background-color: var(--grey);
+		background-color: var(--block-color-mid);
 		box-shadow: inset 0 0 0.3rem var(--text-color);
 		padding: var(--inline-space);
 		margin-inline: 0;
@@ -50,9 +50,9 @@ em{
 	text-transform: uppercase;
 	padding-inline: 0.4rem;
 	white-space: nowrap;
-	background-color: var(--light-grey);
+	background-color: var(--block-color-light);
 	color:var(--text-color);
-	box-shadow: inset 0 0 0.2rem var(--dark-grey);
+	box-shadow: inset 0 0 0.2rem var(--block-color-dark);
 }
 
 strong{
@@ -78,9 +78,9 @@ nav{
 		padding-block:calc(var(--block-space)*2);
 		flex:1;
 		text-align: center;
-		background-color: var(--light-grey);
+		background-color: var(--block-color-light);
 		color: var(--text-color);
-		box-shadow: inset 0 0 0.2rem var(--dark-grey);
+		box-shadow: inset 0 0 0.2rem var(--block-color-dark);
 	}
 }
 
@@ -94,8 +94,8 @@ header{
 			color: var(--text-color);
 			padding-block: calc(var(--block-space)*2);
 			padding-inline: calc(var(--block-space)*2.3);
-			background-color: var(--light-grey);
-			box-shadow: inset 0 0 0.3rem var(--dark-grey);
+			background-color: var(--block-color-light);
+			box-shadow: inset 0 0 0.3rem var(--block-color-dark);
 			width: fit-content;
 		}
 
@@ -104,12 +104,12 @@ header{
 			color: var(--text-color);
 			padding-block:var(--block-space);
 			padding-inline:var(--inline-space);
-			background-color: var(--grey);
+			background-color: var(--block-color-mid);
 			box-shadow: inset 0 0 0.2rem var(--text-color);
 		}
 
 		h3{
-			background-color: var(--grey);
+			background-color: var(--block-color-mid);
 			box-shadow: inset 0 0 0.2rem var(--text-color);
 		}
 	}
@@ -141,7 +141,7 @@ main{
 				color: var(--text-color);
 				padding-inline: calc(var(--inline-space)/1.2);
 				padding-block: calc(var(--inline-space)*0.8);
-				background-color: var(--grey);
+				background-color: var(--block-color-mid);
 				box-shadow: inset 0 0 0.3rem var(--text-color);
 				margin-inline:0;
 				width:fit-content;
