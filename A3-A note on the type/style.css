@@ -1,5 +1,13 @@
 :root{
 	--special-font:'Borel', cursive;
+
+	/* color */
+	--bg-color:#d7dfe6;
+	--text-color:#171717;
+	--link:#276ba6;
+	--block-color-light:rgb(232, 236, 240);
+	--block-color-mid:rgb(164, 167, 179);
+	--block-color-dark:rgb(73, 75, 77);
 }
 
 h3{

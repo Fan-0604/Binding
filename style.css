@@ -1,7 +1,6 @@
 body{
-	border:0.2rem solid #292A27;
 	margin:0.5rem;
-	background-color: #F1EEE6;
+	background-color: #F5F2EB;
 	font-family: 'IBM Plex Mono', monospace;
 	display: flex;
 	flex-direction: column;
