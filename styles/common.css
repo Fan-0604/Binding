@@ -5,6 +5,7 @@
 
 	/* color */
 	--bg-color:#d7dfe6;
+	--background-color:#F5F2EB;
 	--text-color:#171717;
 	--link:#276ba6;
 	--block-color-light:rgb(232, 236, 240);
@@ -74,7 +75,7 @@ nav{
 		display: flex;
 	}
 
-	.home,.direction-1,.direction-2,.direction-3{
+	.home,.article-1,.article-2,.article-3{
 		padding-block:calc(var(--block-space)*2);
 		flex:1;
 		text-align: center;
@@ -184,6 +185,18 @@ main{
 			line-height: 2rem;
 			padding-inline:var(--inline-space);
 			padding-block-end:calc(var(--block-space)/1.8);
+		}
+	}
+}
+
+@media screen and (width > 500px){
+	blockquote{
+		header{
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		grid-template-areas:
+			'webname . credit '
+			'title title title';
 		}
 	}
 }
