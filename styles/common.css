@@ -83,6 +83,13 @@ nav{
 		color: var(--text-color);
 		box-shadow: inset 0 0 0.2rem var(--block-color-mid);
 	}
+
+	.name{
+		display: none;
+	}
+	.num{
+		display: inline;
+	}
 }
 
 header{
@@ -230,6 +237,15 @@ footer{
 }
 
 @media screen and (width > 500px){
+	nav{
+		.num{
+			display: none;
+		}
+		.name{
+			display: inline;
+		}
+	}
+
 	blockquote{
 		header{
 		display: grid;
@@ -251,3 +267,4 @@ footer{
     filter: invert(1);
   }
 }
+
