@@ -156,6 +156,8 @@ main{
 
 	nav{
 		background-color: var(--background-color);
+		margin-block-end: calc(var(--block-space)*2);
+
 		ol {
 			gap: 1rem;
 			flex-direction: column;
