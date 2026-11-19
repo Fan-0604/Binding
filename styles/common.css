@@ -140,7 +140,7 @@ header{
 
 main{
 	background-color: var(--block-color-light);
-	line-height: 1.4rem;
+	line-height: calc(var(--text-size)*1.2);
 
 	article{
 		section{
