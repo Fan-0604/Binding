@@ -1,14 +1,9 @@
 :root{
-	--background-color:#ffb833;
-	--text-color:#276ae4;
-	--block-color-light:#fff0d4;
-	--block-color-mid:rgb(97, 123, 230);
-	--block-color-dark:#1e3070;
 	--cell-size: 5.2rem;
 }
 
 body{
-	background-color: var(--background-color);
+	background-color: var(--bg-color);
 }
 
 header{
@@ -131,7 +126,7 @@ header{
 }
 
 main{
-	background-color: var(--background-color);
+	background-color: var(--bg-color);
 
 	h3{
 		margin-inline-start: calc(var(--block-space)*2);
@@ -156,7 +151,7 @@ main{
 	}
 
 	nav{
-		background-color: var(--background-color);
+		background-color: var(--bg-color);
 		margin-block-end: calc(var(--block-space)*2);
 
 		ol {
