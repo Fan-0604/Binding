@@ -159,6 +159,7 @@ main{
 		ol {
 			gap: 1rem;
 			flex-direction: column;
+			align-items: center;
 		}
 
 		.form,.voice,.system{
